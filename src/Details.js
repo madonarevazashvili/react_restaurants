@@ -19,7 +19,7 @@ export default function Details() {
                 </h4>
                 <h5 style={{ color: "rgba(112, 11, 11, 0.885)", fontSize: "1vw", fontWeight: "bold" }}>Preice: {x.price}</h5>
             </div>
-            <Link to={`/react_restaurants/menu`}><button style={{ backgroundColor: "grey", borderRadius: "10px" }}>Back to menu</button></Link>
+            <Link to={`/react_restaurants/menu`}><button style={{ backgroundColor: "red", borderRadius: "10px" }}>Back to menu</button></Link>
         </div>
 
     </>

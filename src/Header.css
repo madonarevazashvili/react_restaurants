@@ -3,34 +3,35 @@
     height: 100px;
     background-color: rgb(25, 25, 112);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-  
+
 }
 
 .header {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
 }
 
 nav {
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 20px;
-    flex-wrap: wrap;
-    position: relative;
+    text-align: center;
+    margin-left: 30px;
+
 }
 
-.active div {
+.active {
     background-color: #878ca1;
-    border-radius: 70px;
+    border-radius: 20px;
+    width: 100px;
+    height: 60px;
+    text-align: center;
 }
 
 .header_p {
@@ -38,4 +39,11 @@ nav {
     font-weight: bold;
     font-size: 20px;
     margin-left: 10px;
+}
+
+@media (max-width: 970px) {
+    nav {
+        width: 100%;
+        margin-top: 20px;
+    }
 }

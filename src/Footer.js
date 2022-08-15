@@ -6,7 +6,7 @@ export default function Footer() {
             <div className="Footer_box">
                 <h1 className="Footer_h"> IOEVA </h1>
                 <h5 className="Footer_h5">Contact</h5>
-                <p className='address'>5534 Somewhere In GEORGIA</p>
+                <p className='addresss'>5534 Somewhere In GEORGIA</p>
                 <h3 className="Footer_h3"><a className="Footer_mail"  href="mailto: abc@example.com">Send Email</a></h3>    
                 <h4>© 2022 IOEVA. All rights reserved.</h4>
             </div>
