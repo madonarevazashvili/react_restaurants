@@ -28,10 +28,10 @@ nav {
 
 .active {
     background-color: #878ca1;
-    border-radius: 20px;
-    width: 100px;
+    border-radius: 120px;
+    width: 130px;
     height: 60px;
-    text-align: center;
+    justify-content: center;
 }
 
 .header_p {

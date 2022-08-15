@@ -11,10 +11,10 @@ export default function Footer() {
                 <h4>© 2022 IOEVA. All rights reserved.</h4>
             </div>
             <div className="footer_box">
-                <h1 className="footer_h1"> Media</h1>
-                <p> <a href='#'></a>Online</p>
-                <p> <a href='#'></a>Print</p>
-                <p> <a href='#'></a>Alternative Ads</p>
+                <h2 className="footer_h1"> Media</h2>
+                <p className="pp"> <a href='#'></a>Online</p>
+                <p className="pp"> <a href='#'></a>Print</p>
+                <p className="pp"> <a href='#'></a>Alternative Ads</p>
             </div>
             <div className="footer_box">
                 <h1 className="footer_h1"> Technology</h1>
@@ -23,9 +23,9 @@ export default function Footer() {
                 <p> <a href='#'></a>Digital Signage</p>
             </div>
             <div className="footer_box">
-                <p> <a href='#'></a>Automation</p>
-                <p> <a href='#'></a>Artificial Intelligence</p>
-                <p> <a href='#'></a>IoT</p>
+                <p className="footerp"> <a href='#'></a>Automation</p>
+                <p className="footerp"> <a href='#'></a>Artificial Intelligence</p>
+                <p className="footerp"> <a href='#'></a>IoT</p>
             </div>
             <div className="footer_box">
                 <h1 className="footer_h1"> Legal</h1>
