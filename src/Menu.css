@@ -1,0 +1,38 @@
+.menu_Container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: burlywood;
+}
+
+:hover.menu_box {
+    transform: scale(1.3);
+}
+
+.menu_box {
+    background-color: goldenrod;
+    width: 200px;
+    height: 280px;
+}
+
+.hname {
+    color: rgba(246, 36, 36, 0.885);
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.price_h2 {
+    color: rgba(112, 11, 11, 0.885);
+    font-size: 1vw;
+}
+.details_btn{
+    background-color: chocolate;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.add_btn {
+    background-color: chocolate;
+    border-radius: 50%;
+}

@@ -1,0 +1,61 @@
+.Footer_container {
+    width: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(25, 25, 112);
+    height: 300px;
+}
+
+.Footer_h {
+    color: firebrick;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.Footer_h5 {
+    color: rgb(124, 40, 40);
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.Footer_mail {
+    font-size: 14px;
+}
+
+:hover .Footer_mail {
+    color: rgb(103, 19, 19);
+    font-weight: bold;
+}
+
+.footer_h1 {
+    color: firebrick;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.footer_box p {
+    color: rgba(255, 127, 80, 0.668);
+    line-height: 35px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+h4 {
+    color: rgba(255, 127, 80, 0.668);
+    line-height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+.address {
+    color: rgba(255, 127, 80, 0.668);
+    line-height: 35px;
+    font-size: 12px;
+    font-weight: bold;
+}
